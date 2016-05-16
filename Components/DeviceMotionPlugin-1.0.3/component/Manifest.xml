@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="DeviceMotionPlugin" is-shell="true">
+  <name>Device Motion Plugin</name>
+  <publisher>Rendy Del Rosario</publisher>
+  <publisher-url>https://github.com/rdelrosario/xamarin-plugins</publisher-url>
+  <version>1.0.3</version>
+  <summary>Detect motion sensor value changes for: Accelerometer, Gyroscope, Magnetometer, Compass.</summary>
+  <packages>
+    <package id="Xam.Plugin.DeviceMotion" version="1.0.3" framework="ios-unified" />
+    <package id="Xam.Plugin.DeviceMotion" version="1.0.3" framework="winphone-8.1" />
+    <package id="Xam.Plugin.DeviceMotion" version="1.0.3" framework="winphone-8.0" />
+    <package id="Xam.Plugin.DeviceMotion" version="1.0.3" framework="ios" />
+    <package id="Xam.Plugin.DeviceMotion" version="1.0.3" framework="android" />
+  </packages>
+  <samples>
+    <sample id="DeviceMotion.Plugin.Forms.Sample">
+      <name>Android Sample</name>
+      <summary>Android Sample</summary>
+    </sample>
+    <sample id="DeviceMotion.Plugin.Forms.Sample">
+      <name>iOS Sample</name>
+      <summary>iOS Sample</summary>
+    </sample>
+  </samples>
+</component>
